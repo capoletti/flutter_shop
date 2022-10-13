@@ -5,8 +5,8 @@ import 'package:shop/models/order_list.dart';
 
 import '../components/app_drawer.dart';
 
-class OrderPage extends StatelessWidget {
-  const OrderPage({Key? key}) : super(key: key);
+class OrdersPage extends StatelessWidget {
+  const OrdersPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,17 @@
 class Constants {
-  static const productsBaseUrl =
-      'https://shop-flutter-63fb0-default-rtdb.firebaseio.com/products';
+  static const baseUrl = '';
 
-  static const ordersBaseUrl =
-      'https://shop-flutter-63fb0-default-rtdb.firebaseio.com/orders';
+  static const token = '';
+
+  static const productsBaseUrl = '$baseUrl/products';
+
+  static const ordersBaseUrl = '$baseUrl/orders';
+
+  static const userFavoritesBaseUrl = '$baseUrl/userFavorites';
+
+  static const signUpBaseUrl =
+      'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=$token';
+
+  static const signInBaseUrl =
+      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=$token';
 }
